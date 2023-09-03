@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
 // Task 1
         int age = 20;
         if (age >= 18) {
@@ -74,11 +75,19 @@ public class Main {
         }
 
 // Task 7
-        int one;
-        int two;
-        int three;
-
-
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println("Число " + one + " больше остальных");
+        }
+        if (two > one && two > three) {
+            System.out.println("Число " + two + " больше остальных");
+        } else {
+            if (three > one && three > two) {
+                System.out.println("Число " + three + " больше остальных");
+            }
+        }
 
     }
 }
