@@ -5,8 +5,7 @@ public class Main {
         int age = 20;
         if (age >= 18) {
             System.out.println("Если возраст равен 18 или больше, то он совершеннолетний");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст совершеннолетия еще не наступил, то нужно немного подождать");
         }
 
@@ -39,10 +38,6 @@ public class Main {
         }
         if (ageHuman > 24) {
             System.out.println("Если возраст больше 24, то нужно ходить на работу");
-        } else {
-            if (ageHuman < 2) {
-                System.out.println("");
-            }
         }
 
 // Task 5
